@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin-left: 4rem;
+}
+p{
+    padding: 1rem;
+}
+body{
+    font:bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 6rem;
+}
+
+.left{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 400px;
+}
+.right{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.button1{
+    margin: 0 auto;
+    color: black;
+    background-color: white;
+    box-shadow: 1px 1px black;
+    margin-top: 1rem;
+}
+
+.button2{
+    margin: 0 auto;
+    color: black;
+    background-color: white;
+    box-shadow: 1px 1px black;
+    margin-top: 1rem;
+    margin-left: 8rem;
+}
